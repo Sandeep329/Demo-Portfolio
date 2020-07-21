@@ -338,7 +338,7 @@ p{
     padding: 100px 0;
 }
 #services .top-services{
-    width: 700px;
+    width: 450px;
     margin: 0 auto;
 }
 
@@ -643,6 +643,11 @@ p{
     h1.section-title{
         font-size: 6rem;
     }
+
+    #services .top-services{
+        width: 600px;
+        margin: 0 auto;
+    }
     /* hero */
     #hero h1{
         font-size: 7rem;
@@ -774,6 +779,12 @@ p{
 /* mediaquery desktop */
 
 @media only screen and (min-width: 1200px){
+
+    #services .top-services{
+        width: 700px;
+        margin: 0 auto;
+    }
+    
     #services .bottom-services .service-item{
         flex-basis: 22%;
         margin:1.5%;
